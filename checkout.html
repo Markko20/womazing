@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/app.min.css">
+  <title>Womazing</title>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+  
+          <a href="#" class="header-logo">
+            <img src="assets/img/header/logo.svg" alt="логотип" class="header-logo__img">
+            <div class="header-logo__text">Womazing</div>
+          </a>
+  
+          
+          <nav class="header-nav">
+            <a href="index.html" class="header-nav__item">Главная</a>
+            <a href="shop.html" class="header-nav__item">Магазин</a>
+            <a href="about.html" class="header-nav__item">О бренде</a>
+            <a href="contacts.html" class="header-nav__item">Контакты</a>
+          </nav>
+  
+          <div class="menu">
+            <nav>
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="shop.html">О нас</a></li>
+                <li><a href="about.html">Услуги</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li>
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#callback">
+                    <a class="btn">Заказать звонок</a>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+  
+          <div class="header-tel">
+            <button type="button" class="" data-bs-toggle="modal" data-bs-target="#callback">
+              <img src="assets/img/header/phone.svg" alt="телефон" class="header-tel__icon">
+            </button>
+            <a href="tel:+74958235412" class="header-tel__number">+7 (495) 823-54-12</a>
+          </div>
+  
+          <div class="header-cart">
+            <a class="header-cart_-link" href="cart.html">
+              <img src="assets/img/header/cart.svg" alt="корзина" class="header-cart__img">
+            </a>
+          </div>
+  
+          <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+  
+        </div>
+  
+      </div>
+    </header>
+
+    <main class="checkout">
+
+      <div class="container">
+
+        <h1 class="cart-title page-title">Оформление заказа</h1>
+
+        <div class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href='#'>Главная</a>
+            </li>
+            <li class="breadcrumbs__item breadcrumbs__item--now">Оформление заказа</li>
+          </ul>
+        </div>
+
+        <div class="checkout-wrapper">
+
+          <div class="checkout-left">
+            <form class="checkout-left__form">
+              <h3 class="checkout-left__form-title">Данные покупателя</h3>
+              <input class="checkout-left__form-input" type="text" placeholder="Имя">
+              <input class="checkout-left__form-input" type="text" placeholder="E-mail">
+              <input class="checkout-left__form-input" type="text" placeholder="Телефон">
+            </form>
+            <form class="checkout-left__form">
+              <h3 class="checkout-left__form-title">Адрес получателя</h3>
+              <input class="checkout-left__form-input" type="text" placeholder="Страна">
+              <input class="checkout-left__form-input" type="text" placeholder="Город">
+              <input class="checkout-left__form-input" type="text" placeholder="Улица">
+              <input class="checkout-left__form-input" type="text" placeholder="Дом">
+              <input class="checkout-left__form-input" type="text" placeholder="Квартира">
+            </form>
+            <form class="checkout-left__form">
+              <h3 class="checkout-left__form-title">Комментарии</h3>
+              <textarea class="checkout-left__form-textarea" placeholder="Страна"></textarea>
+            </form>
+          </div>
+
+          <div class="checkout-right">
+            <div class="checkout-order">
+              <h3 class="checkout-order__title">Ваш заказ</h3>
+
+                <div class="checkout-order__item">
+                  <h3 class="checkout-order__row-text">Товар</h3>
+                  <h3 class="checkout-order__row-text">Всего</h3>
+                </div>
+
+                <div class="checkout-order__item">
+                  <h3 class="checkout-order__row-text">Футболка USA</h3>
+                  <h3 class="checkout-order__row-text">$129</h3>
+                </div>
+
+                <div class="checkout-order__item">
+                  <h3 class="checkout-order__row-text">Подытог</h3>
+                  <h3 class="checkout-order__row-text">$129</h3>
+                </div>
+
+                <div class="checkout-order__item checkout-order__item-total">
+                  <h3 class="checkout-order__row-text checkout-order__row-text__total">Итого</h3>
+                  <h3 class="checkout-order__row-text checkout-order__row-text__total">$129</h3>
+                </div>
+
+            </div>
+            
+            <div class="checkout-right__payment">
+              <h3 class="checkout-right__payment-title">Способы оплаты</h3>
+
+              <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+              <label for="happy"><span>Оплата наличными</span></label>
+
+              <button class="btn">Разместить заказ</button>
+            </div>
+
+          </div>
+      
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer__top">
+  
+            <div class="footer__logo">
+              <img src="./assets/img/header/logo.svg" alt="" class="footer__logo-img">
+              <h3 class="footer__logo-text">Womazing</h3>
+            </div>
+  
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-list__item">
+                  <a href="index.html" class="footer__list-link">Главная</a>
+                </li>
+                <li class="footer__nav-list__item">
+                  <a href="shop.html" class="footer__list-link">Магазин</a>
+                </li>
+                <li class="footer__nav-list__item">
+                  <a href="about.html" class="footer__list-link">О бренде</a>
+                </li>
+                <li class="footer__nav-list__item">
+                  <a href="contacts.html" class="footer__list-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+  
+            <div class="footer__info">
+              <a class="footer__info-tel" href="tel:+74958235412">+7 (495) 823-54-12</a>
+              <a class="footer__info-email" href="mailto:hello@womazing.com">hello@womazing.com</a>
+            </div>
+          </div>
+  
+          <div class="footer__bottom">
+            <div class="footer__bottom-copyright">
+              <h3>© Все права защищены</h3>
+              <a href="#">Политика конфиденциальности</a> <br>
+              <a href="#">Публичная оферта</a>
+            </div>
+  
+            <ul class="footer__bottom-items">
+              <li class="footer__bottom-item">
+                <a href="" class="footer__bottom-link">Пальто</a>
+              </li>
+              <li class="footer__bottom-item">
+                <a href="" class="footer__bottom-link">Свитшоты</a>
+              </li>
+              <li class="footer__bottom-item">
+                <a href="" class="footer__bottom-link">Кардиганы</a>
+              </li>
+              <li class="footer__bottom-item">
+                <a href="" class="footer__bottom-link">Толстовки</a>
+              </li>
+            </ul>
+  
+            <div class="footer__bottom-info">
+              <div class="footer__bottom-socials">
+  
+                <a href='#' class="footer__bottom-socials__item">
+                  <img src="assets/img/footer/inst.svg" alt="">
+                </a>
+                <a href='#' class="footer__bottom-socials__item">
+                  <img src="assets/img/footer/facebook.svg" alt="">
+                </a>
+                <a href='#' class="footer__bottom-socials__item">
+                  <img src="assets/img/footer/twitter.svg" alt="">
+                </a>
+  
+              </div>
+  
+              <img src="assets/img/footer/visa-mastercard.webp" alt="" class="bank">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="modal fade" id="callback-succsess" tabindex="-1" aria-labelledby="callback-succsessLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-succsess">
+        <div class="modal-content modal-content-succsess">
+          <div class="modal-header">
+            <h3 class="modal-title">Отлично! Мы скоро вам перезвоним.</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-transparent btn-modal__success"
+              data-bs-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="callback" tabindex="-1" aria-labelledby="callbackLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="assets/img/modal/Close.svg" alt="" class="modal-close " data-bs-dismiss="modal">
+            <h3 class="modal-title">Заказать обратный звонок</h3>
+          </div>
+          <div class="modal-body">
+            <form action="" class="modal-form">
+              <textarea class="modal-textarea" placeholder="Имя"></textarea>
+              <textarea class="modal-textarea" placeholder="E-mail"></textarea>
+              <textarea class="modal-textarea" placeholder="Телефон"></textarea>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#callback-succsess"
+              class="btn btn-primary btn-modal" data-bs-dismiss="modal">Заказать звонок</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/header.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+
+  </div>
+</body>
+
+</html>
